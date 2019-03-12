@@ -8,7 +8,7 @@
 			100% {transform: translateZ(100);}
 		}
 
-		.Layer_2 {
+		#Squiggle {
 			animation-name: attack;
 			animation-duration: 6s;
 			animation-timing-function: linear;
