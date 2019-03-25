@@ -1,25 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.65 106.65">
-	<defs><style>
-		.cls-1,.cls-2{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:3px;}.cls-2{stroke-linecap:round;}
+	<defs>
+		<style>
+			.cls-1,.cls-2{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:3px;}.cls-2{stroke-linecap:round;}
+
+			g {
+				animation: move 4s linear alternate forwards infinite;
+				stroke: purple;
+			}
+
+			@keyframes fade {
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+
+
+			}
+
+
+
+
+
+
 
 	</style>
-
-	@keyframes attack {
-			0% {transform: translateZ(0);}
-			50% {transform: translateZ(30);}
-			100% {transform: translateZ(100);}
-		}
-
-		#Layer_2 {
-			animation-name: attack;
-			animation-duration: 6s;
-			animation-timing-function: linear;
-			animation-iteration0-count: infinite;
-		}
-
-
-
-
 
 </defs>
 
