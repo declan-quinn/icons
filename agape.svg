@@ -2,7 +2,9 @@
 	<defs><style>
 		.cls-1,.cls-2{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:3px;}.cls-2{stroke-linecap:round;}
 
-		@keyframes attack {
+	</style>
+
+	@keyframes attack {
 			0% {transform: translateZ(0);}
 			50% {transform: translateZ(30);}
 			100% {transform: translateZ(100);}
@@ -15,8 +17,6 @@
 			animation-iteration0-count: infinite;
 		}
 
-
-	</style>
 
 
 
